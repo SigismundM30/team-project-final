@@ -18,12 +18,7 @@ public class UserLogin1 {
 
         if (username.equals("EasterEgg") && password.equals(":)")) {
             System.out.println("Congratulations！you find the EasterEgg");
-
-            System.out.println("__     _____ _   _  ____ _____ _   _ _____  __   ___   _ \n" +
-                    "\\ \\   / /_ _| \\ | |/ ___| ____| \\ | |_   _| \\ \\ / / | | |\n" +
-                    " \\ \\ / / | ||  \\| | |   |  _| |  \\| | | |    \\ V /| | | |\n" +
-                    "  \\ V /  | || |\\  | |___| |___| |\\  | | |     | | | |_| |\n" +
-                    "   \\_/  |___|_| \\_|\\____|_____|_| \\_| |_|     |_|  \\___/ ");
+            
             return true;
         } else if (users.containsKey(username) && users.get(username).getPassword().equals(password)) {
             System.out.println(":) welcome");
