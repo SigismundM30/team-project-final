@@ -5,8 +5,9 @@ public class Main {
 
         if (loggedIn) {
             VideoGameDatabase.main(args);
-        } else {
-            System.out.println("Login in failed. VideoGame class will not be executed.");
+        }
+        else {
+            System.out.println("Login failed. VideoGame class will not be executed.");
         }
     }
 }
