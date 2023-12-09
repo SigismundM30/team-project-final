@@ -1,7 +1,7 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.ArrayList;//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/ArrayList.java
+import java.util.Collections;//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/Collections.java
+import java.util.Comparator;//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/Comparator.java
+import java.util.List;//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/List.java
 import java.util.Scanner;
 
 class VideoGame {

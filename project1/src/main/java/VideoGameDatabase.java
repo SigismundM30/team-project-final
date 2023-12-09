@@ -10,6 +10,7 @@ public class VideoGameDatabase {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("\033[1;34m");
         System.out.println("  _   _  U _____ u  _       _       U  ___ u  _   \n" +
                 " |'| |'| \\| ___\"|/ |\"|     |\"|       \\/\"_ \\/U|\"|u \n" +
                 "/| |_| |\\ |  _|\" U | | u U | | u     | | | |\\| |/ \n" +
