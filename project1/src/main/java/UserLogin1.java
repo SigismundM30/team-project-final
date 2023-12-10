@@ -1,4 +1,5 @@
 import java.util.HashMap;
+//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/HashMap.java
 import java.util.Map;
 import java.util.Scanner;
 
@@ -60,23 +61,3 @@ public class UserLogin1 {
         userLogin.login();
     }
 }
-
-class UserRegistration {
-    public static void register(HashMap<String, Player> users) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a username: ");
-        String username = scanner.nextLine();
-
-        if (users.containsKey(username)) {
-            System.out.println("Username already exists. Please choose a different username.");
-            return;
-        }
-
-        System.out.print("Enter a password: ");
-        String password = scanner.nextLine();
-
-        users.put(username, new Player(username, password));
-        System.out.println("Registration successful!");
-    }
-}
-
