@@ -1,20 +1,18 @@
 import java.util.HashMap;
-//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/HashMap.java
-import java.util.Map;
 import java.util.Scanner;
 
 public class UserLogin1 {
-    private static HashMap<String, Player> users = new HashMap<>();
+    private static final HashMap<String, Player> users = new HashMap<>();
 
     public boolean login() {
-        users.put("Dave", new Player("Dave", "dave1234"));
-        users.put("Vincent", new Player("Vincent", "050129"));
-        users.put("Bob", new Player("Bob", "12524525"));
-        users.put("1", new Player("1", "1"));
+        users.put("Dave", new Player("dave1234"));
+        users.put("Vincent", new Player("050129"));
+        users.put("Bob", new Player("12524525"));
+        users.put("1", new Player("1"));
 
         Scanner scanner = new Scanner(System.in);
-        String username = "";
-        String password = "";
+        String username;
+        String password;
         boolean loggedIn = false;
         System.out.print("\033[1;31m");//https://blog.csdn.net/u014470361/article/details/81512330  change color
         System.out.print("___       ________________ _____________________  _________________\n" +

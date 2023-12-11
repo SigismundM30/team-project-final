@@ -1,9 +1,9 @@
 class VideoGame {
-    private String size;
-    private String platform;
-    private String title;
-    private int year;
-    private float price;
+    private final String size;
+    private final String platform;
+    private final String title;
+    private final int year;
+    private final float price;
 
     public VideoGame(String size, String platform, String title, int year, float price) {
         this.size = size;

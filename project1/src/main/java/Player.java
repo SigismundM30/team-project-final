@@ -1,14 +1,8 @@
 public class Player {
-    private String name;
-    private String password;
+    private final String password;
 
-    public Player(String name, String password) {
-        this.name = name;
+    public Player(String password) {
         this.password = password;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public String getPassword() {

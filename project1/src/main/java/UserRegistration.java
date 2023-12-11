@@ -14,7 +14,7 @@ public class UserRegistration {
         System.out.print("Enter a password: ");
         String password = scanner.nextLine();
 
-        users.put(username, new Player(username, password));
+        users.put(username, new Player(password));
         System.out.println("Registration successful!");
 
 

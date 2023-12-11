@@ -1,12 +1,11 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
 
 public class VideoGameDatabase {
-    private static List<VideoGame> gameData = new ArrayList<>();
+    private static final List<VideoGame> gameData = new ArrayList<>();
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -88,7 +87,7 @@ public class VideoGameDatabase {
             System.out.println("No games found!");
             return;
         }
-        Collections.sort(gameData, Comparator.comparing(VideoGame::getSize));
+        gameData.sort(Comparator.comparing(VideoGame::getSize));
 
         for (VideoGame game : gameData) {
             System.out.println(game.getTitle() + ": " + game.getSize());
@@ -100,7 +99,7 @@ public class VideoGameDatabase {
             System.out.println("No games found!");
             return;
         }
-        Collections.sort(gameData, Comparator.comparing(VideoGame::getPlatform));
+        gameData.sort(Comparator.comparing(VideoGame::getPlatform));
 
         for (VideoGame game : gameData) {
             System.out.println(game.getTitle() + ": " + game.getPlatform());
@@ -112,7 +111,7 @@ public class VideoGameDatabase {
             System.out.println("No games found!");
             return;
         }
-        Collections.sort(gameData, Comparator.comparing(VideoGame::getTitle));
+        gameData.sort(Comparator.comparing(VideoGame::getTitle));
 
         for (VideoGame game : gameData) {
             System.out.println(game.getTitle());
@@ -124,7 +123,7 @@ public class VideoGameDatabase {
             System.out.println("No games found!");
             return;
         }
-        Collections.sort(gameData, Comparator.comparingInt(VideoGame::getYear));
+        gameData.sort(Comparator.comparingInt(VideoGame::getYear));
 
         for (VideoGame game : gameData) {
             System.out.println(game.getTitle() + ": " + game.getYear());
@@ -136,7 +135,7 @@ public class VideoGameDatabase {
             System.out.println("No games found!");
             return;
         }
-        Collections.sort(gameData, Comparator.comparingDouble(VideoGame::getPrice));
+        gameData.sort(Comparator.comparingDouble(VideoGame::getPrice));
 
         for (VideoGame game : gameData) {
             System.out.println(game.getTitle() + ": " + game.getPrice());
