@@ -21,11 +21,7 @@ public class UserLogin1 {
                 "__ |/ |/ / _  /___  _  /___/ /___  / /_/ /_  /  / / _  /___   /_/  \n" +
                 "____/|__/  /_____/  /_____/\\____/  \\____/ /_/  /_/  /_____/  (_) :)   \n");//ASCII
         System.out.print("\033[1;34m");
-        System.out.print("Do you want to register? (Y/N): ");
-        String choice = scanner.nextLine();
-        if (choice.equalsIgnoreCase("Y")) {
-            UserRegistration.register(users);
-        }
+
 
         while (!loggedIn) {
             System.out.print("ENTER YOUR NAME: ");
