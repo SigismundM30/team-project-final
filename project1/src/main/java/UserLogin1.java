@@ -1,4 +1,5 @@
 import java.util.HashMap;
+//jetbrains://idea/navigate/reference?project=Main.java&path=D:/OpenJDK21U-jdk_x64_windows_hotspot_21_35/jdk-21+35/lib/src.zip!/java.base/java/util/HashMap.java
 import java.util.Scanner;
 
 public class UserLogin1 {
